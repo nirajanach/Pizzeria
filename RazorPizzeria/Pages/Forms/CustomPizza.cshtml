@@ -1,0 +1,75 @@
+﻿@page
+@model RazorPizzeria.Pages.Forms.CustomPizzaModel
+@{
+}
+
+
+<a class="nav-link text-dark" asp-area="" asp-page="../Checkout/Checkout">Checkout</a>
+
+
+
+<div class="text-center container" >
+     <h1> Create Your Own Pizza</h1>
+
+</div>
+
+
+<form method="post" class="mx-auto mt-5 mb-5 px-5 pb-5 pt-5 rounded alert-light col-4">
+                            <div class="text-center">
+        @*  <div class="col-sm-8 ms-4">*@
+                                <input class=" form-control" style="margin:auto" type="text" asp-for="Pizza.PizzaName" placeholder="Give your pizza a name.."/>
+
+
+                                <div class="custom-control custom-checkbox">
+
+                                        <input type="checkbox" id="Tomatosauce" class="custom-control-input " asp-for="Pizza.TomatoSauce"/> 
+                                        <label class="custom-control-label" for="Tomatosauce" >Tomato Sauce</label> <br/>
+
+                                        <input type="checkbox" class="custom-control-input" asp-for="Pizza.Cheese" />
+                                        <label class="custom-control-label" >Cheese</label><br/>
+
+
+                                        <input type="checkbox" class="custom-control-input" asp-for="Pizza.Pepperoni" />
+                                        <label class="custom-control-label" >Pepperoni</label> <br/>
+
+
+                                        <input type="checkbox" class="lcustom-control-input" asp-for="Pizza.Mushroom" />
+                                        <label class="custom-control-label" >Mushroom</label> <br/>
+
+
+                                        <input type="checkbox" class="lcustom-control-input" asp-for="Pizza.Tuna" />
+                                        <label class="custom-control-label" >Tuna</label> <br/>
+
+
+                                        <input type="checkbox" class="custom-control-input" asp-for="Pizza.Pineapple" />
+                                        <label class="custom-control-label" >Pineapple</label> <br/>
+
+                                        <input type="checkbox" class="custom-control-input" asp-for="Pizza.Ham" />
+                                         <label class="custom-control-label" >Ham</label> <br/>
+
+
+                                        <input type="checkbox" class="custom-control-input" asp-for="Pizza.Beef" />
+                                         <label class="custom-control-label" >Beef</label> <br/>
+
+
+                                        <input type="checkbox" class="custom-control-input" asp-for="Pizza.Chicken" />
+                                         <label class="custom-control-label" >Chicken</label> <br/>
+
+                                </div>
+
+
+
+
+        @*<div class="col-auto">*@
+
+                            <button class="btn btn-primary" type="submit"> Order My Pizza </button>
+
+        @* </div>*@
+
+                            </div>
+
+
+                       </form>
+
+
+   

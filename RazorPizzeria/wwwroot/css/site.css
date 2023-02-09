@@ -1,0 +1,70 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+.mainText {
+    padding: 75px 20px;
+}
+
+
+.mainImage{
+    border-radius: 20px;
+    filter: drop-shadow(-0.5px 10px 10px rgba(0,0,0,0.8));
+    margin: 40px;
+}
+
+.btn {
+    filter: drop-shadow(-0.5px 10px 10px rgba(0,0,0,0.3));
+}
+
+
+
+.mainSubtitle{
+    font-weight : 400;
+    letter-spacing: 2px;
+}
+
+.smallTexts {
+    text-align: right;
+    color:grey;
+  }
+
+.makeYourOwnDiv{
+    background: grey;
+    margin: 0;
+    border-radius:12px;
+
+}
+
+.imageTile{
+    height:250px; 
+    width:250px;
+    border-radius: 15px;
+    margin: 30px auto 30px; 
+    filter: drop-shadow(-0.5px 10px 10px rgba(0,0,0,0.8));
+}
+
+.pizza-image :hover{
+    transform: scale(1.05);
+
+}
+/*.makeYourOwnText{
+    margin: 100px 0 20px 0;
+    color:white;
+}*/
