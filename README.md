@@ -16,7 +16,7 @@ The home page serves as the starting point for users, providing an introduction 
 
 #### Pizzas to choose for the order
 
-![Pizzas Gallery Page]([/screenshots/RazorPizzeria_Pizzas1.png](https://github.com/nirajanach/Pizzeria/blob/master/RazorPizzeria/wwwroot/images/Readme/Pizza%20Gallery.png))
+![Pizzas Gallery Page](https://github.com/nirajanach/Pizzeria/blob/master/RazorPizzeria/wwwroot/images/Readme/Pizza%20Gallery.png)
 
 
 
