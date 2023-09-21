@@ -1,4 +1,4 @@
-# Razor Pizzeria Web Application Readme
+# Razor Pizzeria Web Application
 
 ## Overview
 
